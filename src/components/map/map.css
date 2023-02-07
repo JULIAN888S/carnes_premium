@@ -1,0 +1,14 @@
+.map_container{
+  min-height: 50vh;
+  width: 100%;
+  text-align:center;
+  background-color: var(--color1);
+}
+
+.map_container iframe{
+  height: 50vh;
+  width: 60%;
+  border-radius: 10px;
+  margin: 10% 10% 10% 10%;
+  box-shadow: 0px 20px 40px 1px var(--color2);
+}

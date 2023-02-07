@@ -1,0 +1,13 @@
+header{
+  height: 20vh;
+  background-color: var(--color5);
+  color: var(--color0);
+}
+
+header h1 img{
+  height: 25vh;
+  margin-top: 2%;
+  margin-left: 2%;
+  position: relative;
+}
+

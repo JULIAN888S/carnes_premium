@@ -1,0 +1,8 @@
+.products_card{
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  background-color: var(--color5);
+  text-align: center;
+}

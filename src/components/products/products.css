@@ -1,0 +1,5 @@
+.product_description{
+  min-height: 75vh;
+  padding-top: 5%;
+  background-color: var(--color1);
+}

@@ -1,0 +1,7 @@
+.productReview{
+  min-height: 40vh;
+  display: flex;
+  width: 100%;
+  background-color: var(--color5);
+  color: var(--color0);
+}

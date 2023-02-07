@@ -1,0 +1,35 @@
+.about-us{
+  justify-content: center;
+  display: flex;
+  min-height: 28vh;
+  background-color: var(--color2);
+}
+
+.about-container{
+  width:540px;
+  min-height:440px;
+  background: var(--color5);
+  box-shadow: 10px 20px 40px var(--color2);
+  border-radius:8px;
+  box-shadow:10px 20px 40px var(--color4);
+  margin:calc(50vh - 220px) auto;
+  padding:20px 30px;
+  max-width:calc(100vw - 40px);
+  box-sizing:border-box;
+  font-family:var(--font1);
+  color: var(--color2);
+  position:relative
+}
+
+.about-container h4{
+  font-family: var(--font1);
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+.about-container p{
+  font-family: var(--font2);
+  color: var(--color1);
+  font-size: 1rem;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,86 @@
+:root{
+    --color0:#F5F5F5;
+    --color1:#D9D9D9;
+    --color2:#D9C6B0;
+    --color3:#732407;
+    --color4:#59200B;
+    --color5:#261105;
+    --font1: 'Kaushan Script', cursive;
+    --font2: 'Mulish', sans-serif;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: var(--color5);
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.boton {
+    background: var(--color3);
+    background-image: -webkit-linear-gradient(top, var(--color3), var(--color4));
+    background-image: -moz-linear-gradient(top, var(--color3), var(--color4));
+    background-image: -ms-linear-gradient(top, var(--color3), var(--color4));
+    background-image: -o-linear-gradient(top, var(--color3), var(--color4));
+    background-image: linear-gradient(to bottom, var(--color3), var(--color4));
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: F5F5F5;
+    font-size: 16px;
+    height: 15px;
+    width: 105px;
+    margin-bottom:15px;
+    margin-left: 15%;
+    padding: 10px 10px 10px 10px;
+    border: solid var(--color2) 0.5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .boton:hover {
+    background: var(--color2);
+    color: var(--color3);
+    text-decoration: none;
+    opacity: 1;
+    box-shadow: 0px 0px 37px 5px var(--color2);
+  }
