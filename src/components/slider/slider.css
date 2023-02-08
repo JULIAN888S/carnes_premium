@@ -2,7 +2,7 @@
 .mainSlider{
   min-height: 30vh;
   width: 100%;
-  background-color: var(--color0);
+  background-color: var(--color6);
   overflow: hidden;
   display: flex;
   z-index: 98;
@@ -33,12 +33,14 @@
   margin-top: 2%;
   font-size: 4rem;
   font-family: var(--font1);
+  color: var(--color2)
 }
 
 .slide p{
   margin: 8% 2%;
   font-size: 2rem;
   font-family: var(--font2);
+  color: var(--color1)
 }
 
 
@@ -60,7 +62,7 @@
 @media(max-width: 843px){
   .slide{
     display: inline-grid;
-    background-color: var(--color0);
+    background-color: var(--color6);
   }
   .mainSlider img{
     margin: 0% 0%;
@@ -76,7 +78,7 @@
     padding-right: 80%;
     justify-content: center;
     font-family: var(--font1);
-    color: var(--color5);
+    color: var(--color3);
   }
 
   .slide p{
@@ -90,7 +92,7 @@
 
   .textSlide{
     position: relative;
-    background-color: var(--color0);
+    background-color: var(--color6);
   
   }
 }

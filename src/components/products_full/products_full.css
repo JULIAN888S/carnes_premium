@@ -3,7 +3,7 @@
   margin: 0% 0% 0% 0%;
   text-align:center;
   padding: 2%;
-  background-color: var(--color2);
+  background-color: var(--color1);
 }
 
 .product_description_container h3{
@@ -15,7 +15,7 @@
 .product_description{
   min-height: 2vh;
   display: flex;
-  background-color: var(--color2);
+  background-color: var(--color1);
 } 
 .product_description p{
   font-family: var(--font2);

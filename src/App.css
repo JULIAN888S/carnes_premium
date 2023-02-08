@@ -1,10 +1,19 @@
 :root{
     --color0:#F5F5F5;
     --color1:#D9D9D9;
+    --color2:#F2C1B6;
+    --color3:#BF2C53;
+    --color4:#A67468;
+    --color5:#A6032F;
+    --color6: black;
+    /*
+    --color0:#F5F5F5;
+    --color1:#D9D9D9;
     --color2:#D9C6B0;
     --color3:#732407;
     --color4:#59200B;
     --color5:#261105;
+    */
     --font1: 'Kaushan Script', cursive;
     --font2: 'Mulish', sans-serif;
 }
