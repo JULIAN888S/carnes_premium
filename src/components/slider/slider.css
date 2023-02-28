@@ -66,12 +66,12 @@
   }
   .mainSlider img{
     margin: 0% 0%;
-    width: 100vw;
+    width: 100vh;
     height: auto;
   }
   .slide h4{
     position: relative;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-top: -280px;
     margin-left: 0%;
     margin-right: 2%;
