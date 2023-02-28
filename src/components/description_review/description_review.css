@@ -1,5 +1,6 @@
 .descriptionReview{
-  min-height: 32vh;
+  min-height: 15vh;
+  padding: 5%;
   background-color: var(--color5);
 }
 
@@ -16,12 +17,13 @@
 .descriptionReview p{
   margin: 2% ;
   font-family: var(--font2);
+  text-align: justify;
   font-size: 1.2rem;
   color: var(--color1);
 }
 
 .descriptionReview .boton{
-  margin-left: 43%;
+  margin-left: 35%;
   color: var(--color1);
   padding-left: 40px;
   

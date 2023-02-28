@@ -5,7 +5,7 @@ import  ('../../../App')
 
 
 const COLORS = {
-  primaryDark: "#D9C6B0",
+  primaryDark: "#D9D9D9",
   primaryLight: "#261105",
   primaryGreen: "#F5F5F5",
 };
@@ -108,7 +108,7 @@ const ItemLink = styled(NavLink)`
     120deg,
     transparent 0%,
     transparent 50%,
-    #D9C6B0 50%
+    #D9D9D9 50%
   );
   background-size: 240%;
   transition: all 0.4s;

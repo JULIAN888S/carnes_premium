@@ -73,18 +73,28 @@
     position: relative;
     font-size: 3.5rem;
     margin-top: -280px;
-    margin-left: 2%;
+    margin-left: 0%;
     margin-right: 2%;
+    margin-bottom: 0%;
+    padding-top: 8%;
+    padding-left: 2%;
     padding-right: 80%;
+    padding-bottom: 7%;
     justify-content: center;
     font-family: var(--font1);
-    color: var(--color3);
+    color: var(--color0);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,0,1) 0%, rgba(0,0,0,1) 18%, rgba(0,212,255,0) 100%);
   }
 
   .slide p{
     position: relative;
+    margin-top: -5%;
     margin-left: 2%;
-    padding-right: 40%;
+    margin-bottom: 4%;
+    padding-top: 0%;
+    padding-right: 50%;
+    padding-bottom: 0%;
     margin-right: 30%;
     justify-content:space-between;
     font-size: 1.6rem;

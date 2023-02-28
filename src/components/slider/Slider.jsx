@@ -8,17 +8,17 @@ const Slider = (props) => {
       <Fragment>
         <SliderContent
         imagen='carne'
-        titulo='Las mejores carnes Premium'
+        titulo='Las mejores carnes Premium de Engativa'
         descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. exercitationem a c'
         />
         <SliderContent
         imagen='pollo'
-        titulo='Las mejores carnes Premium'
+        titulo='Delicioso Pollo fresco de alta calidad'
         descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. exercitationem a c'
         />
         <SliderContent
-        imagen='pollo'
-        titulo='Las mejores carnes Premium'
+        imagen='vino'
+        titulo='Vinos para acompañar sus comidas'
         descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. exercitationem a c'
         />
         
